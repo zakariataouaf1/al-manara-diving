@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al Manara Diving — Al-Hoceima, Morocco</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">Al Manara <span>Diving</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#dives">Experiences</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#location">Location</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO VIDEO -->
+<section class="hero" id="home">
+
+  <div class="hero-video-wrap">
+    <!--
+      =====================================================
+      TO USE YOUR VIDEO:
+      1. Put your .mp4 file in the same folder as this HTML
+      2. Replace  YOUR_VIDEO.mp4  below with your filename
+         Example:  src="dive.mp4"
+      =====================================================
+    -->
+    <video class="hero-video" src="./IMG_5407.MP4" autoplay muted loop playsinline></video>
+  </div>
+
+  <div class="hero-overlay"></div>
+  <div class="hero-rays"></div>
+  <div class="hero-bubbles" id="heroBubbles"></div>
+
+  <div class="hero-content">
+    <span class="hero-eyebrow">Al-Hoceima · Mediterranean Morocco</span>
+    <h1 class="hero-title">Al Manara<br><em>Diving</em></h1>
+    <p class="hero-sub">Where the Mediterranean reveals its secrets</p>
+    <div class="hero-cta">
+      <a href="#dives" class="btn btn-primary">Explore Dives</a>
+      <a href="#contact" class="btn btn-outline">Book a Session</a>
+    </div>
+  </div>
+
+  <div class="scroll-hint"><div class="scroll-line"></div>Scroll</div>
+</section>
+
+<!-- OCEAN WORLD -->
+<div id="ocean-world">
+  <div id="world-bubbles"></div>
+  <div id="seaweed-layer"></div>
+  <div id="jelly-layer"></div>
+  <div id="fish-layer"></div>
+  <div id="plankton-layer"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-img-main"></div>
+        <div class="about-badge"><span class="num">2</span><span class="label">Certified<br>Instructors</span></div>
+      </div>
+      <div class="about-text reveal">
+        <span class="section-label">Our Story</span>
+        <h2>Born from a love<br>of the <em>deep blue</em></h2>
+        <p>Al Manara Diving was founded by two passionate, certified divers with a shared dream: to share the breathtaking underwater world of Al-Hoceima with those who dare to explore it. Nestled on Morocco's Mediterranean coastline, we offer an intimate, personal diving experience unlike any other.</p>
+        <p>Our name — Al Manara, meaning "the lighthouse" in Arabic — reflects our mission: to guide you safely through uncharted waters, illuminate what lies beneath, and bring you home changed by what you've seen.</p>
+        <div class="about-stats">
+          <div class="stat-item"><span class="stat-num">100%</span><span class="stat-desc">Safety Record</span></div>
+          <div class="stat-item"><span class="stat-num">2</span><span class="stat-desc">Dive Types</span></div>
+          <div class="stat-item"><span class="stat-num">&#8734;</span><span class="stat-desc">Adventures</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ocean-divider"></div>
+
+  <!-- DIVES -->
+  <section id="dives">
+    <div class="dives-header reveal">
+      <div>
+        <span class="section-label">Dive Experiences</span>
+        <h2>Choose your<br><em>adventure</em></h2>
+      </div>
+      <p>Two certified divers. Two extraordinary experiences. Both designed to connect you with the Mediterranean in a way you'll never forget.</p>
+    </div>
+    <div class="dives-grid reveal">
+      <div class="dive-card dive-card-1">
+        <div class="dive-card-bg"></div>
+        <div class="dive-card-overlay"></div>
+        <div class="dive-icon">&#127754;</div>
+        <div class="dive-card-content">
+          <span class="dive-tag">Open Water Experience</span>
+          <h3 class="dive-title">Normal Dive</h3>
+          <p class="dive-desc">Glide through crystal Mediterranean waters and discover the vibrant marine life of Al-Hoceima's coast. Suitable for beginners and experienced divers alike — our certified guides ensure your safety every meter of the way.</p>
+        </div>
+      </div>
+      <div class="dive-card dive-card-2">
+        <div class="dive-card-bg"></div>
+        <div class="dive-card-overlay"></div>
+        <div class="dive-icon">&#129415;</div>
+        <div class="dive-card-content">
+          <span class="dive-tag">Advanced Experience</span>
+          <h3 class="dive-title">Cave Dive</h3>
+          <p class="dive-desc">Enter another world. Our underwater cave diving experience takes you through ancient rock formations and hidden chambers beneath Al-Hoceima's coastline. An extraordinary adventure for thrill-seekers guided by expertise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ocean-divider"></div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="exp-inner">
+      <div class="exp-item reveal"><span class="exp-icon">&#127892;</span><p class="exp-title">Certified Instructors</p><p class="exp-desc">Both our divers hold professional certifications and extensive experience in Mediterranean waters.</p></div>
+      <div class="exp-item reveal"><span class="exp-icon">&#129686;</span><p class="exp-title">Full Equipment</p><p class="exp-desc">Top-quality gear provided. You bring the curiosity — we handle everything else.</p></div>
+      <div class="exp-item reveal"><span class="exp-icon">&#128205;</span><p class="exp-title">Local Knowledge</p><p class="exp-desc">We know every reef, cave, and current around Al-Hoceima like the back of our hands.</p></div>
+      <div class="exp-item reveal"><span class="exp-icon">&#129309;</span><p class="exp-title">Small Groups</p><p class="exp-desc">Intimate sessions mean personal attention, real guidance, and a safer dive every time.</p></div>
+    </div>
+  </section>
+
+  <div class="ocean-divider"></div>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="gallery-header reveal">
+      <span class="section-label">Gallery</span>
+      <h2>Moments from the <em>deep</em></h2>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="g-item g1"><div class="g-item-bg photo" style="background-image: url('media/images/IMG_1980.JPG.jpeg');"></div></div>
+      <div class="g-item g2"><div class="g-item-bg photo" style="background-image: url('media/images/IMG_4178.png');"></div></div>
+      <div class="g-item g3"><div class="g-item-bg photo" style="background-image:url('media/images/IMG_4176.png');"></div></div>
+      <div class="g-item g4"><div class="g-item-bg photo" style="background-image:url('media/images/IMG_4166.png');"></div></div>
+      <div class="g-item g5"><div class="g-item-bg photo" style="background-image:url('media/images/IMG_4969.png');"></div></div>
+      <div class="g-item g6"><div class="g-item-bg photo" style="background-image:url('media/images/IMG_3996.JPG.jpeg');"></div></div>
+    </div>
+    <p style="text-align:center;margin-top:1.5rem;font-size:0.72rem;color:rgba(200,222,222,0.35);font-style:italic;">Replace placeholders with your real dive photos.</p>
+  </section>
+
+  <div class="ocean-divider"></div>
+
+  <!-- LOCATION -->
+  <section id="location">
+    <div class="location-inner">
+      <div class="location-map reveal">
+        <div class="map-pin-area">
+          <span class="map-pin">&#128205;</span>
+          <p class="map-label">Al-Hoceima, Morocco</p>
+        </div>
+      </div>
+      <div class="location-info reveal">
+        <span class="section-label">Find Us</span>
+        <h2>Al-Hoceima,<br><em>Morocco</em></h2>
+        <p>Located on Morocco's stunning northern coastline, Al-Hoceima is one of the Mediterranean's best-kept secrets — turquoise waters, dramatic cliffs, and a rich marine ecosystem waiting to be explored.</p>
+        <div class="location-facts">
+          <div class="loc-fact"><div class="loc-dot"></div><span>Mediterranean Sea, Northern Morocco</span></div>
+          <div class="loc-fact"><div class="loc-dot"></div><span>Al-Hoceima National Park nearby</span></div>
+          <div class="loc-fact"><div class="loc-dot"></div><span>Water temperature: 18&#8211;26&#176;C year-round</span></div>
+          <div class="loc-fact"><div class="loc-dot"></div><span>Best diving season: April &#8211; October</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ocean-divider"></div>
+
+  <!-- WHAT DIVERS SAY -->
+  <section id="testimonials">
+    <div class="testi-header reveal">
+      <span class="section-label">Testimonials</span>
+      <h2>What <em>Divers Say</em></h2>
+      <p>Real words from real adventurers who dove with us into the blue.</p>
+    </div>
+    <div class="testi-track-wrap reveal">
+      <div class="testi-track">
+
+        <div class="testi-card">
+          <span class="testi-dive-badge">Normal Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">An absolutely magical experience. The water around Al-Hoceima is unlike anything I've seen — so clear, so alive. Our guide made us feel completely safe the whole time.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127467;&#127479;</div><div><div class="testi-name">Sophie Marchand</div><div class="testi-origin">Lyon, France</div></div></div>
+        </div>
+
+        <div class="testi-card">
+          <span class="testi-dive-badge">Cave Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">The cave dive was the most thrilling thing I've ever done. Going through those underwater tunnels with an expert beside you — pure adrenaline, pure beauty.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127465;&#127466;</div><div><div class="testi-name">Lukas Bauer</div><div class="testi-origin">Berlin, Germany</div></div></div>
+        </div>
+
+        <div class="testi-card">
+          <span class="testi-dive-badge">Normal Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">I was a complete beginner and they made me feel so comfortable. By the end I was swimming alongside octopus and schools of fish. I'll be back next summer for sure.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127474;&#127462;</div><div><div class="testi-name">Nadia El Fassi</div><div class="testi-origin">Casablanca, Morocco</div></div></div>
+        </div>
+
+        <div class="testi-card">
+          <span class="testi-dive-badge">Cave Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">The team's knowledge of this coastline is extraordinary. They took us to spots no tourist ever sees. The cave formations were simply breathtaking — nature at its most raw.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127468;&#127463;</div><div><div class="testi-name">James Thornton</div><div class="testi-origin">London, UK</div></div></div>
+        </div>
+
+        <div class="testi-card">
+          <span class="testi-dive-badge">Normal Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">Small group, personal attention, crystal water. Al Manara gave us the most intimate diving experience of our lives. Al-Hoceima is a hidden gem and so is this team.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127466;&#127480;</div><div><div class="testi-name">Carlos &amp; Marta Vega</div><div class="testi-origin">Barcelona, Spain</div></div></div>
+        </div>
+
+        <div class="testi-card">
+          <span class="testi-dive-badge">Cave Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">I've dived in Thailand, Egypt and Croatia — but this cave dive in Morocco? Top three of my life. The guides are calm, skilled, and genuinely passionate about the sea.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127475;&#127473;</div><div><div class="testi-name">Rens van der Berg</div><div class="testi-origin">Amsterdam, Netherlands</div></div></div>
+        </div>
+
+        <!-- Duplicate set for seamless infinite loop -->
+        <div class="testi-card">
+          <span class="testi-dive-badge">Normal Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">An absolutely magical experience. The water around Al-Hoceima is unlike anything I've seen — so clear, so alive. Our guide made us feel completely safe the whole time.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127467;&#127479;</div><div><div class="testi-name">Sophie Marchand</div><div class="testi-origin">Lyon, France</div></div></div>
+        </div>
+        <div class="testi-card">
+          <span class="testi-dive-badge">Cave Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">The cave dive was the most thrilling thing I've ever done. Going through those underwater tunnels with an expert beside you — pure adrenaline, pure beauty.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127465;&#127466;</div><div><div class="testi-name">Lukas Bauer</div><div class="testi-origin">Berlin, Germany</div></div></div>
+        </div>
+        <div class="testi-card">
+          <span class="testi-dive-badge">Normal Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">I was a complete beginner and they made me feel so comfortable. By the end I was swimming alongside octopus and schools of fish. I'll be back next summer for sure.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127474;&#127462;</div><div><div class="testi-name">Nadia El Fassi</div><div class="testi-origin">Casablanca, Morocco</div></div></div>
+        </div>
+        <div class="testi-card">
+          <span class="testi-dive-badge">Cave Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">The team's knowledge of this coastline is extraordinary. They took us to spots no tourist ever sees. The cave formations were simply breathtaking — nature at its most raw.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127468;&#127463;</div><div><div class="testi-name">James Thornton</div><div class="testi-origin">London, UK</div></div></div>
+        </div>
+        <div class="testi-card">
+          <span class="testi-dive-badge">Normal Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">Small group, personal attention, crystal water. Al Manara gave us the most intimate diving experience of our lives. Al-Hoceima is a hidden gem and so is this team.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127466;&#127480;</div><div><div class="testi-name">Carlos &amp; Marta Vega</div><div class="testi-origin">Barcelona, Spain</div></div></div>
+        </div>
+        <div class="testi-card">
+          <span class="testi-dive-badge">Cave Dive</span>
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">I've dived in Thailand, Egypt and Croatia — but this cave dive in Morocco? Top three of my life. The guides are calm, skilled, and genuinely passionate about the sea.</p>
+          <div class="testi-stars"><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></div>
+          <div class="testi-author"><div class="testi-avatar">&#127475;&#127473;</div><div><div class="testi-name">Rens van der Berg</div><div class="testi-origin">Amsterdam, Netherlands</div></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="ocean-divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <span class="section-label">Get in Touch</span>
+        <h2>Ready to dive<br><em>in?</em></h2>
+        <p>Whether you're a first-time diver or a seasoned explorer, we'd love to take you beneath the surface. Reach out to book your session or ask anything about our experiences.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">&#128205;</div>
+            <div class="contact-item-text"><span class="contact-item-label">Location</span>Al-Hoceima, Taza-Al Hoceima-Taounate<br>Morocco</div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">&#128222;</div>
+            <div class="contact-item-text"><span class="contact-item-label">Phone / WhatsApp</span>+212 — your number here</div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">&#9993;&#65039;</div>
+            <div class="contact-item-text"><span class="contact-item-label">Email</span>info@almanara-diving.ma</div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-field"><label>First Name</label><input type="text" placeholder="Youssef"></div>
+            <div class="form-field"><label>Last Name</label><input type="text" placeholder="El Idrissi"></div>
+          </div>
+          <div class="form-field"><label>Email</label><input type="email" placeholder="you@example.com"></div>
+          <div class="form-row">
+            <div class="form-field">
+              <label>Dive Type</label>
+              <select><option value="">Choose an experience</option><option>Normal Dive</option><option>Cave Dive</option><option>Not sure yet</option></select>
+            </div>
+            <div class="form-field">
+              <label>Experience Level</label>
+              <select><option value="">Your level</option><option>First time diver</option><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select>
+            </div>
+          </div>
+          <div class="form-field"><label>Message</label><textarea placeholder="Tell us about your diving goals, preferred dates, or any questions you have..."></textarea></div>
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <span class="form-note">We reply within 24 hours</span>
+          </div>
+          <div id="formMsg">&#10003; Message sent! We'll be in touch soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- GALLERY MODAL -->
+<div class="gallery-modal" id="galleryModal" aria-hidden="true">
+  <div class="gallery-modal-dialog" role="dialog" aria-modal="true">
+    <button class="gallery-modal-close" type="button" aria-label="Close">&#10005;</button>
+    <div class="gallery-modal-media" id="galleryModalMedia"></div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">Al Manara <span>Diving</span></div>
+      <div class="footer-tagline">Al-Hoceima · Mediterranean Morocco</div>
+    </div>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#dives">Dives</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-social">
+      <a href="#" class="social-btn">&#128247;</a>
+      <a href="#" class="social-btn">&#128216;</a>
+      <a href="#" class="social-btn">&#128172;</a>
+    </div>
+    <div class="footer-copy">&#169; 2025 Al Manara Diving</div>
+  </div>
+</footer>
+
+<script src="js/navbar.js" defer></script>
+<script src="js/hero-bubbles.js" defer></script>
+<script src="js/ocean-world.js" defer></script>
+<script src="js/jellyfish.js" defer></script>
+<script src="js/fish.js" defer></script>
+<script src="js/plankton.js" defer></script>
+<script src="js/seaweed.js" defer></script>
+<script src="js/scroll-reveal.js" defer></script>
+<script src="js/gallery-modal.js" defer></script>
+<script src="js/contact-form.js" defer></script>
+</body>
+</html>
